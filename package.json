@@ -1,0 +1,34 @@
+{
+    "name": "avatarid-js",
+    "version": "1.0.0",
+    "description": "AvatarID is a decentralized set of custom avatar protocols provided by Lifeform, and it allows users to customize their unique WEB3 avatars by holding NFTs (either 721 or 1155).",
+    "main": "lib/main.js",
+    "type": "module",
+    "scripts": {
+        "dev": "rollup -c rollup.config.js -w",
+        "build": "rollup -c rollup.config.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ALen-404/avatarid-js.git"
+    },
+    "keywords": [],
+    "author": "Lifeform",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ALen-404/avatarid-js/issues"
+    },
+    "homepage": "https://github.com/ALen-404/avatarid-js#readme",
+    "devDependencies": {
+        "@babel/core": "^7.20.5",
+        "@babel/plugin-transform-runtime": "^7.19.6",
+        "@babel/preset-env": "^7.20.2",
+        "eslint": "^8.29.0",
+        "rollup": "^3.6.0",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-eslint": "^7.0.0",
+        "rollup-plugin-node-resolve": "^5.2.0"
+    }
+}
